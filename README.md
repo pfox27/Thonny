@@ -1,0 +1,2 @@
+# Thonny
+Code for Pico
