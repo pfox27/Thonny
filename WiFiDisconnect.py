@@ -1,0 +1,8 @@
+import network
+wlan = network.WLAN(network.STA_IF)
+wlan.disconnect()
+wlan.active(False)
+
+
+
+
