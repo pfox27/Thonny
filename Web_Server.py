@@ -75,7 +75,14 @@ def serve(connection):
         print(request)
         client.close()
 
+#import socket
+# ... other code ...
+#sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+#sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) # Add this line
+#`sock.bind(host_addr)
+# ... rest of your code ...
 
-ip = connect()
-connection = open_socket(ip)
+
+#ip = connect()
+#connection = open_socket(ip)
 serve(connection)
